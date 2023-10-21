@@ -123,13 +123,13 @@
     - spec.rules.*.host   
 
 ## REPLACE IMAGE
-- source:
-    kind: ConfigMap
-    fieldPath: data.ACR_IMAGE
-    name: kvmap
-  targets:
-  - select:
-      kind: Deployment
-      name: web
-    fieldPaths:
-    - spec.template.spec.containers.*.image   
+# - source:
+#     kind: ConfigMap
+#     fieldPath: data.ACR_IMAGE
+#     name: kvmap
+#   targets:
+#   - select:
+#       kind: Deployment
+#       name: web
+#     fieldPaths:
+#     - spec.template.spec.containers.*.image   
