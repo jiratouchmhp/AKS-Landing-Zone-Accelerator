@@ -160,7 +160,7 @@ spec:
                 configMapKeyRef:
                   key: VNET_DEPLOYMENT
                   name: env
-          image: replaceme.azurecr.io/oai-embeddings:v1
+          image: craksembedjm252m5bfqk4tr63g.azurecr.io/oai-embeddings:v1
           name: web
           ports:
             - containerPort: 80
